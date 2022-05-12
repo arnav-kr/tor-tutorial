@@ -1,0 +1,16 @@
+{
+  "name": "tor",
+  "version": "1.0.0",
+  "description": "Tor Hidden Service Using Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "arnav-kr (https://github.com/arnav-kr)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
