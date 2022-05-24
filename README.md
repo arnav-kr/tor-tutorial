@@ -129,6 +129,24 @@ The configuration file for Tor you can modify it accordingly if you want
 
 This directory contains all the files related to the tor
 
+> **IMPORTATNT NOTE:**
+> 
+> When you run the code for the first time a directory named `hidden_service` will be created in the `/tor` directory that contains metadata about your hosted site.
+> 
+> There are 3 files named `hostname`, `hs_ed25519_public_key`, `hs_ed25519_secret_key` that you will find in the `/tor/hidden_service` directory.
+> 
+> `hostname` contains the domain on which your site is hosted.
+> 
+> `hs_ed25519_public_key` is the public key that the browser use internally.
+> 
+> **And MOST IMPORTANT `hs_ed25519_secret_key`!**
+> 
+> **Never Expose this file to public as the name suggests its your secret key it is not to be shared to others.**
+> 
+> **In case someone gets your private key then they can host their own content on your domain and they would have control over it. You have to then delete the contents of your `hidden_service` file and rerun the code but then your site will be at different domain and the previous domain will still be in control of the attacker**
+> 
+> **so never ever expose that to public**
+
 #### `.replit`
 
 Configuration file for replit usually used to configure the behaviour of the run button
@@ -140,7 +158,7 @@ This is the `nix` config file in replit. Used to manage packages. [More Info](ht
 ### Live Example
 
 I have hosted the same template on replit.
-And here's the link to the working example: https://hta6b3rxz7xya2boiam5bff7ws7uo542afyq5dzwlj556v53lihsm3id.onion
+And here's the link to the working example: http://l63qzrvtgmie6msklerp32oiazya3lzxaev3v54cl5nl3ob4nayeu4ad.onion/
 
 > Note: You can't open this is normal browser, you have to use Tor Browser to open this
 
