@@ -140,7 +140,7 @@ This is the `nix` config file in replit. Used to manage packages. [More Info](ht
 ### Live Example
 
 I have hosted the same template on replit.
-And here's the link to the working example: http://nbrmr5m4gekl2lkof4kkarjfwpuaa745yfgmrnpn7bfjsoclm7g2lxad.onion/
+And here's the link to the working example: https://hta6b3rxz7xya2boiam5bff7ws7uo542afyq5dzwlj556v53lihsm3id.onion
 
 > Note: You can't open this is normal browser, you have to use Tor Browser to open this
 
