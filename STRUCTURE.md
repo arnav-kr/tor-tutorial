@@ -44,10 +44,6 @@ npm i express dotenv body-parser
 and add the start script in the `package.json`
 ```json
 {
-...
-  
-"start": "node index.js"
-  
-...
+  "start": "node index.js"
 }
 ```
